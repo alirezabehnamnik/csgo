@@ -1,343 +1,402 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-   <meta charset="utf-8">
-   <meta name="viewport" content="width=device-width, initial-scale=1">
-   <meta name="description" content="Alireza Behnamnik | T!G3R">
-   <meta name="author" content="Alireza Behnamnik | T!G3R">
-   <title> Counter Strike:Global Offensive </title>
-   <link id="style" rel="stylesheet" type="text/css" href="css/style.css">
-   <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
-   <script type="text/javascript" src="js/ticker.js"></script>
-   <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
-   <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
-   <link rel="stylesheet" href="css/responsive.css"></link>
-   <link rel="icon" href="/images/favicon.png">
-   <link href="css/hover.css" rel="stylesheet">
-   <link rel="stylesheet" type="text/css" href="css/animate.css" />
-   <script src="js/viewportchecker.js"></script>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Alireza Behnamnik | T!G3R">
+  <meta name="author" content="Alireza Behnamnik | T!G3R">
+  <title> Counter Strike:Global Offensive </title>
+  <link id="style" rel="stylesheet" type="text/css" href="css/style.css">
+  <script type="text/javascript" src="js/jquery-1.11.3.min.js"></script>
+  <script type="text/javascript" src="js/ticker.js"></script>
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.min.css">
+  <link rel="stylesheet" type="text/css" href="css/font-awesome.css">
+  <link rel="stylesheet" href="css/responsive.css">
+  </link>
+  <link rel="icon" href="/images/favicon.png">
+  <link href="css/hover.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.css" />
+  <script src="js/viewportchecker.js"></script>
 </head>
+
 <body>
 
-<!-- Music -->
+  <!-- Music -->
 
-<script>
-window.onload = function() {
-    var backgroundAudio=document.getElementById("sound");
-    backgroundAudio.volume=0.3;
-}
-</script>
-
-<audio id="sound" class="none" preload="none" contols autoplay loop>
-  <source src="sound.mp3" type="audio/mpeg">
-  Your browser does not support the audio tag.
-</audio>
-<span id="mute"><i id="mute-icon" class="fa fa-volume-up" aria-hidden="true"></i></span>
-
-<!-- Loading -->
-<script>
-$(window).load(function() {
-  "use strict";
-    	$(".loader").delay(500).fadeOut();
-    	$("#mask").delay(1000).fadeOut("slow");
-});
-</script>
-<div id="mask">   
-    <div class="loader">
-        <img src="img/loading.gif" alt='loading'>
-    </div>
-</div>
-
-<!-- Section 1 -->
-
-<div class="section1">
-
-<div class="chooseteam">
-
-<span class="cht-txt"> CHOOSE YOUR SIDE </span>
-<div class="cht-teams">
-<div class="cht-ct pointer">
-<img class="teams-img" id="ct" src="img/team-ct.jpg" />
-</div>
-<div class="cht-tr pointer">
-<img class="teams-img" id="tr" src="img/team-tr.jpg" />
-</div>
-</div>
-</div>
-
-</div>
-
-
-
-<!-- Section 2 -->
-
-<div class="section2 none">
-
-<div class="navbar">
-<a href="http://caspiangames.ir"><img class="csplogo" src="img/logo.png" /></a>
-<a href="#"><li class="home hvr-bounce-to-bottom"> خانه </li></a>
-<a href="#about"><li class="hvr-bounce-to-bottom"> درباره ما </li></a>
-<a href="#ip"><li class="hvr-bounce-to-bottom"> مشخصات سرور </li></a>
-<a href="#learn"><li class="hvr-bounce-to-bottom"> آموزش اتصال به سرور </li></a>
-<a href="#ts"><li class="hvr-bounce-to-bottom"> تیم اسپیک </li></a>
-<a href="#contact"><li class="hvr-bounce-to-bottom"> تماس با ما </li></a>
-<a href="#admins"><li class="hvr-bounce-to-bottom"> لیست ادمین های سرور </li></a>
-</div>
-
-<div class="m-navbar">
-<a href="http://caspiangames.ir"><img class="csplogo" src="img/logo.png" /></a>
-<div class="mob-bar"><i class="fa fa-bars" aria-hidden="true"></i></div>
-<div class="mob-navbar">
-<a href="#"><li class="home hvr-bounce-to-bottom"> خانه </li></a>
-<a href="#about"><li class="hvr-bounce-to-bottom"> درباره ما </li></a>
-<a href="#ip"><li class="hvr-bounce-to-bottom"> مشخصات سرور </li></a>
-<a href="#learn"><li class="hvr-bounce-to-bottom"> آموزش اتصال به سرور </li></a>
-<a href="#ts"><li class="hvr-bounce-to-bottom"> تیم اسپیک </li></a>
-<a href="#contact"><li class="hvr-bounce-to-bottom"> تماس با ما </li></a>
-<a href="#admins"><li class="hvr-bounce-to-bottom"> لیست ادمین های سرور </li></a>
-</div>
-</div>
-
-
-
-
-<div class="main_body">
-
-<img src="img/csgo.png" class="csgologo" />
-
-<h1> به وب سایت کانتر استرایک سی اس گو باز خوش آمدید. </h1>
-
-<div class="admins_area none">
-
-<div id="admins" class="admins_area_txt hvr-bubble-bottom"><div class="back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div><i class="fa fa-user icon-margin" aria-hidden="true"></i> ادمین های سرور </div>
-
-
-<div class="mvp_box">
-<div class="mvp_title"> Owner </div>
-<div class="mvp_section">
-<div class="mvp_avatar"><img src="img/avatar5.jpg" width="64" height="64" /></div>
-<div class="mvp_text"><i class="fa fa-star gold" aria-hidden="true"></i> vIkA- </div>
-<div class="mvp_logo"></div>
-</div>
-</div>
-<div class="mvp_box">
-<div class="mvp_title"> Owner </div>
-<div class="mvp_section">
-<div class="mvp_avatar"><img src="img/avatar5.jpg" width="64" height="64" /></div>
-<div class="mvp_text"><i class="fa fa-star gold" aria-hidden="true"></i> DARK </div>
-<div class="mvp_logo"></div>
-</div>
-</div>
-
-</div>
-
-<div class="main_sections" id="about">
-<div class="ms_title hvr-bubble-bottom"><i class="fa fa-star-o icon-margin" aria-hidden="true"></i> درباره ما </div>
-<span class="ms_txt" > سی اس گو باز کار خود را از آغاز سال 1394 در زمینه اخبار و مطالب در تلگرام شروع کرد و قصد دارد در زمینه خود سی اس گو پیشرفت های زیادی به عمل بیانجامد. </span>
-</div>
-
-<div class="main_sections" id="ip">
-<div class="ms_title hvr-bubble-bottom"><i class="fa fa-list-alt icon-margin" aria-hidden="true"></i> مشخصات سرور </div>
-<span class="ms_txt" > 	<table>
-		<thead>
-			<tr>
-				<th>مد سرور</th>
-				<th> آی پی سرور</th>
-                <th> وضعیت سرور</th>  
-				<th> اتصال به سرور</th>  
-			</tr>
-		</thead>
-		<tbody>
-			<tr>
-				<td>بزودی</td>
-				<td>بزودی</td>
-				<td class="run">Run</td>
-				<td><a href="#"><span class="fa-stack fa-lg">
-                <i class="fa fa-square fa-stack-2x cicon"></i>
-                <i class="fa fa-server fa-stack-1x fa-inverse"></i>
-                </span></a></td>
-			</tr>
-		</tbody>
-	</table>
-	</span>
-</div>
-
-<div class="main_sections" id="learn">
-<div class="ms_title hvr-bubble-bottom"><i class="fa fa-bullhorn icon-margin" aria-hidden="true"></i> آموزش اتصال به سرور </div>
-<span class="ms_txt" >  بزودی... </span>
-</div>
-
-<div class="main_sections" id="ts">
-<div class="ms_title hvr-bubble-bottom"><i class="fa fa-headphones icon-margin" aria-hidden="true"></i> تیم اسپیک </div>
-<span class="ms_txt" >
-<div class="ts-right">
-<h3> آموزش اتصال به تیم اسپیک </h3>
-<p>پس از دریافت و نصب برنامه ، از تب های بالایی برنامه ،بر روی گزینه ی Connections کلیک کنید. </p>
-<p>سپس در پنجره ی باز شده ی جدید ،در قسمت Server Adress : آی پی سرور را وارد نمایید. </p>
-<p>در دیگر قسمت های پنجره ی باز شده ، NickName : را نام مستعار خود را وارد نمایید. </p>
-<p>سپس بر روی دکمه ی Connect کلیک کرده و به سرور متصل شوید.</p>
-</div>
-<div class="ts-left">
-<a href="http://www.teamspeak.com/?page=downloads" target="_blank"><div class="dlbtn"><i class="fa fa-download icon-margin" aria-hidden="true"></i> دانلود تیم اسپیک </div></a>
-<a href="ts3server://10.201.65.216:6237/?nickname=CSGOBAZUser"><div class="dlbtn"><i class="fa fa-bolt icon-margin" aria-hidden="true"></i> اتصال به تیم اسپیک </div></a>
-</div>
-</span>
-</div>
-
-<div class="main_sections lspadding" id="contact">
-<div class="ms_title hvr-bubble-bottom"><i class="fa fa-at icon-margin" aria-hidden="true"></i> تماس با ما </div>
-<span class="ms_txt" >
-<div class="cntct-box">
-	<div class="cntct-icon">
-	<i class="fa fa-steam hvr-float" aria-hidden="true"></i>
-	</div>
-	<div class="cntct-text">
-	<a href="https://steamcommunity.com/id/ebivika/"><h4>vIkA</h4></a>
-    </div>
-</div>
-<div class="cntct-box">
-	<div class="cntct-icon">
-	<i class="fa fa-paper-plane-o hvr-float" aria-hidden="true"></i>
-	</div>
-	<div class="cntct-text">
-	<a href="https://telegram.me/csgobaz"><h4>CSGOBaz@</h4></a>
-    </div>
-</div>
-<div class="cntct-box">
-	<div class="cntct-icon">
-	<i class="fa fa-paper-plane-o hvr-float" aria-hidden="true"></i>
-	</div>
-	<div class="cntct-text">
-	<a href="https://telegram.me/joinchat/BqoKhz5MEe43xnAas9OYMw"><h4>Telegram Group</h4></a>
-    </div>
-</div>
-</span>
-</div>
-
-
-</div>
-
-<div class="footer">
-<div class="cpt">All rights reserved by <a href="http://csgobaz.com/" target="_blank">CSGOBaz</a> | Design by <a href="https://telegram.me/AlirezaTiG3R" target="_blank">T!G3R </a></div>
-</div>
-
-
-</div>
-
-<script>
-var audio = document.getElementById('sound');
-
-document.getElementById('mute').addEventListener('click', function (e)
-{
-    e = e || window.event;
-    audio.muted = !audio.muted;
-    e.preventDefault();
-}, false);
-</script>
-<script>
-  $(window).scroll(function() {
-    if ($(document).scrollTop() > 100) {
-      $(".sctop").fadeIn();
-    } else {
-      $(".sctop").fadeOut();
+  <script>
+    window.onload = function () {
+      var backgroundAudio = document.getElementById("sound");
+      backgroundAudio.volume = 0.3;
     }
-  });
-</script>
-<script>
-$("#mute").click(function(){
-    $("#mute-icon").toggleClass('fa-volume-up fa-volume-off');	
-});
+  </script>
+  <audio id="sound" class="none" preload="none" autoplay loop>
+    <source src="sound.mp3" type="audio/mpeg">
+    Your browser does not support the audio tag.
+  </audio>
+  <span id="mute"><i id="play-button" class="fa fa-play" aria-hidden="true"></i></span>
 
+  <!-- Loading -->
+  <script>
+    const playButton = document.getElementById('play-button');
+    const audios = document.getElementById('sound');
 
-$("a[href='#about']").click(function() {
-  $("html, body").animate({ scrollTop: $('#about').offset().top -35}, "slow");
-  return false;
-});
-$("a[href='#ip']").click(function() {
-  $("html, body").animate({ scrollTop: $('#ip').offset().top -35}, "slow");
-  return false;
-});
-$("a[href='#learn']").click(function() {
-  $("html, body").animate({ scrollTop: $('#learn').offset().top -35}, "slow");
-  return false;
-});
-$("a[href='#ts']").click(function() {
-  $("html, body").animate({ scrollTop: $('#ts').offset().top -35}, "slow");
-  return false;
-});
-$("a[href='#contact']").click(function() {
-  $("html, body").animate({ scrollTop: $('#contact').offset().top -35}, "slow");
-  return false;
-});
-
-$(".mob-bar").click(function(){
-   $(".mob-navbar").fadeToggle();
-});
-  
-  
-$("#ct").click(function(){
-   $(".section1").fadeOut('fast', function() {
-       $(".section2").removeClass("none");
-       $(".section1").addClass("none");
-       $(".section2").fadeIn('slow', function() {
-           // Animation complete
-            });
+    playButton.addEventListener('click', () => {
+      audios.play().catch(error => {
+        console.error('Error trying to play audio:', error);
       });
-	  $("#style").attr("href", "css/style.css");
+    });
+    $(window).load(function () {
+      "use strict";
+      $(".loader").delay(500).fadeOut();
+      $("#mask").delay(1000).fadeOut("slow");
+    });
+  </script>
+  <div id="mask">
+    <div class="loader">
+      <img src="img/loading.gif" alt='loading'>
+    </div>
+  </div>
 
-});
+  <!-- Section 1 -->
 
-$("#tr").click(function(){
-   $(".section1").fadeOut('fast', function() {
-       $(".section2").removeClass("none");
-       $(".section1").addClass("none");
-       $(".section2").fadeIn('slow', function() {
-           // Animation complete
-            });
+  <div class="section1">
+
+    <div class="chooseteam">
+
+      <span class="cht-txt"> CHOOSE YOUR SIDE </span>
+      <div class="cht-teams">
+        <div class="cht-ct pointer">
+          <img class="teams-img" id="ct" src="img/team-ct.jpg" />
+        </div>
+        <div class="cht-tr pointer">
+          <img class="teams-img" id="tr" src="img/team-tr.jpg" />
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <!-- Section 2 -->
+
+  <div class="section2 none">
+
+    <div class="navbar">
+      <a href="http://alirezabehnamnik.ir"><img class="csplogo" src="img/logo.png" /></a>
+      <a href="#">
+        <li class="home hvr-bounce-to-bottom"> خانه </li>
+      </a>
+      <a href="#about">
+        <li class="hvr-bounce-to-bottom"> درباره ما </li>
+      </a>
+      <a href="#ip">
+        <li class="hvr-bounce-to-bottom"> مشخصات سرور </li>
+      </a>
+      <a href="#learn">
+        <li class="hvr-bounce-to-bottom"> آموزش اتصال به سرور </li>
+      </a>
+      <a href="#ts">
+        <li class="hvr-bounce-to-bottom"> تیم اسپیک </li>
+      </a>
+      <a href="#contact">
+        <li class="hvr-bounce-to-bottom"> تماس با ما </li>
+      </a>
+      <a href="#admins">
+        <li class="hvr-bounce-to-bottom"> لیست ادمین های سرور </li>
+      </a>
+    </div>
+
+    <div class="m-navbar">
+      <a href="http://alirezabehnamnik.ir"><img class="csplogo" src="img/logo.png" /></a>
+      <div class="mob-bar"><i class="fa fa-bars" aria-hidden="true"></i></div>
+      <div class="mob-navbar">
+        <a href="#">
+          <li class="home hvr-bounce-to-bottom"> خانه </li>
+        </a>
+        <a href="#about">
+          <li class="hvr-bounce-to-bottom"> درباره ما </li>
+        </a>
+        <a href="#ip">
+          <li class="hvr-bounce-to-bottom"> مشخصات سرور </li>
+        </a>
+        <a href="#learn">
+          <li class="hvr-bounce-to-bottom"> آموزش اتصال به سرور </li>
+        </a>
+        <a href="#ts">
+          <li class="hvr-bounce-to-bottom"> تیم اسپیک </li>
+        </a>
+        <a href="#contact">
+          <li class="hvr-bounce-to-bottom"> تماس با ما </li>
+        </a>
+        <a href="#admins">
+          <li class="hvr-bounce-to-bottom"> لیست ادمین های سرور </li>
+        </a>
+      </div>
+    </div>
+
+
+
+
+    <div class="main_body">
+
+      <img src="img/csgo.png" class="csgologo" />
+
+      <h1> به وب سایت کانتر استرایک سی اس گو باز خوش آمدید. </h1>
+
+      <div class="admins_area none">
+
+        <div id="admins" class="admins_area_txt hvr-bubble-bottom">
+          <div class="back"><i class="fa fa-chevron-circle-left" aria-hidden="true"></i></div><i
+            class="fa fa-user icon-margin" aria-hidden="true"></i> ادمین های سرور
+        </div>
+
+
+        <div class="mvp_box">
+          <div class="mvp_title"> Owner </div>
+          <div class="mvp_section">
+            <div class="mvp_avatar"><img src="img/avatar5.jpg" width="64" height="64" /></div>
+            <div class="mvp_text"><i class="fa fa-star gold" aria-hidden="true"></i> vIkA- </div>
+            <div class="mvp_logo"></div>
+          </div>
+        </div>
+        <div class="mvp_box">
+          <div class="mvp_title"> Owner </div>
+          <div class="mvp_section">
+            <div class="mvp_avatar"><img src="img/avatar5.jpg" width="64" height="64" /></div>
+            <div class="mvp_text"><i class="fa fa-star gold" aria-hidden="true"></i> DARK </div>
+            <div class="mvp_logo"></div>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="main_sections" id="about">
+        <div class="ms_title hvr-bubble-bottom"><i class="fa fa-star-o icon-margin" aria-hidden="true"></i> درباره ما
+        </div>
+        <span class="ms_txt"> سی اس گو باز کار خود را از آغاز سال 1394 در زمینه اخبار و مطالب در تلگرام شروع کرد و قصد
+          دارد در زمینه خود سی اس گو پیشرفت های زیادی به عمل بیانجامد. </span>
+      </div>
+
+      <div class="main_sections" id="ip">
+        <div class="ms_title hvr-bubble-bottom"><i class="fa fa-list-alt icon-margin" aria-hidden="true"></i> مشخصات
+          سرور </div>
+        <span class="ms_txt">
+          <table>
+            <thead>
+              <tr>
+                <th>مد سرور</th>
+                <th> آی پی سرور</th>
+                <th> وضعیت سرور</th>
+                <th> اتصال به سرور</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>بزودی</td>
+                <td>بزودی</td>
+                <td class="run">Run</td>
+                <td><a href="#"><span class="fa-stack fa-lg">
+                      <i class="fa fa-square fa-stack-2x cicon"></i>
+                      <i class="fa fa-server fa-stack-1x fa-inverse"></i>
+                    </span></a></td>
+              </tr>
+            </tbody>
+          </table>
+        </span>
+      </div>
+
+      <div class="main_sections" id="learn">
+        <div class="ms_title hvr-bubble-bottom"><i class="fa fa-bullhorn icon-margin" aria-hidden="true"></i> آموزش
+          اتصال به سرور </div>
+        <span class="ms_txt"> بزودی... </span>
+      </div>
+
+      <div class="main_sections" id="ts">
+        <div class="ms_title hvr-bubble-bottom"><i class="fa fa-headphones icon-margin" aria-hidden="true"></i> تیم
+          اسپیک </div>
+        <span class="ms_txt">
+          <div class="ts-right">
+            <h3> آموزش اتصال به تیم اسپیک </h3>
+            <p>پس از دریافت و نصب برنامه ، از تب های بالایی برنامه ،بر روی گزینه ی Connections کلیک کنید. </p>
+            <p>سپس در پنجره ی باز شده ی جدید ،در قسمت Server Adress : آی پی سرور را وارد نمایید. </p>
+            <p>در دیگر قسمت های پنجره ی باز شده ، NickName : را نام مستعار خود را وارد نمایید. </p>
+            <p>سپس بر روی دکمه ی Connect کلیک کرده و به سرور متصل شوید.</p>
+          </div>
+          <div class="ts-left">
+            <a href="http://www.teamspeak.com/?page=downloads" target="_blank">
+              <div class="dlbtn"><i class="fa fa-download icon-margin" aria-hidden="true"></i> دانلود تیم اسپیک </div>
+            </a>
+            <a href="ts3server://10.201.65.216:6237/?nickname=CSGOBAZUser">
+              <div class="dlbtn"><i class="fa fa-bolt icon-margin" aria-hidden="true"></i> اتصال به تیم اسپیک </div>
+            </a>
+          </div>
+        </span>
+      </div>
+
+      <div class="main_sections lspadding" id="contact">
+        <div class="ms_title hvr-bubble-bottom"><i class="fa fa-at icon-margin" aria-hidden="true"></i> تماس با ما
+        </div>
+        <span class="ms_txt">
+          <div class="cntct-box">
+            <div class="cntct-icon">
+              <i class="fa fa-github hvr-float" aria-hidden="true"></i>
+            </div>
+            <div class="cntct-text">
+              <a href="https://github.com/alirezabehnamnik/">
+                <h4>GitHub</h4>
+              </a>
+            </div>
+          </div>
+          <div class="cntct-box">
+            <div class="cntct-icon">
+              <i class="fa fa-link hvr-float" aria-hidden="true"></i>
+            </div>
+            <div class="cntct-text">
+              <a href="https://alirezabehnamnik.ir">
+                <h4>Website</h4>
+              </a>
+            </div>
+          </div>
+          <div class="cntct-box">
+            <div class="cntct-icon">
+              <i class="fa fa-paper-plane-o hvr-float" aria-hidden="true"></i>
+            </div>
+            <div class="cntct-text">
+              <a href="https://t.me/AlirezaTiG3R">
+                <h4>Telegram</h4>
+              </a>
+            </div>
+          </div>
+        </span>
+      </div>
+
+
+    </div>
+
+    <div class="footer">
+      <div class="cpt">All rights reserved by <a href="http://alirezabehnamnik.ir/" target="_blank"> Alirezabehnamnik
+        </a> | Design by <a href="https://telegram.me/AlirezaTiG3R" target="_blank">T!G3R </a></div>
+    </div>
+
+
+  </div>
+
+  <script>
+    var audio = document.getElementById('sound');
+
+    document.getElementById('mute').addEventListener('click', function (e) {
+      e = e || window.event;
+      audio.muted = !audio.muted;
+      e.preventDefault();
+    }, false);
+  </script>
+  <script>
+    $(window).scroll(function () {
+      if ($(document).scrollTop() > 100) {
+        $(".sctop").fadeIn();
+      } else {
+        $(".sctop").fadeOut();
+      }
+    });
+  </script>
+  <script>
+    $("#mute").click(function () {
+      $("#mute-icon").toggleClass('fa-volume-up fa-volume-off');
+    });
+
+
+    $("a[href='#about']").click(function () {
+      $("html, body").animate({ scrollTop: $('#about').offset().top - 35 }, "slow");
+      return false;
+    });
+    $("a[href='#ip']").click(function () {
+      $("html, body").animate({ scrollTop: $('#ip').offset().top - 35 }, "slow");
+      return false;
+    });
+    $("a[href='#learn']").click(function () {
+      $("html, body").animate({ scrollTop: $('#learn').offset().top - 35 }, "slow");
+      return false;
+    });
+    $("a[href='#ts']").click(function () {
+      $("html, body").animate({ scrollTop: $('#ts').offset().top - 35 }, "slow");
+      return false;
+    });
+    $("a[href='#contact']").click(function () {
+      $("html, body").animate({ scrollTop: $('#contact').offset().top - 35 }, "slow");
+      return false;
+    });
+
+    $(".mob-bar").click(function () {
+      $(".mob-navbar").fadeToggle();
+    });
+
+
+    $("#ct").click(function () {
+      $(".section1").fadeOut('fast', function () {
+        $(".section2").removeClass("none");
+        $(".section1").addClass("none");
+        $(".section2").fadeIn('slow', function () {
+          // Animation complete
+        });
+      });
+      $("#style").attr("href", "css/style.css");
+
+    });
+
+    $("#tr").click(function () {
+      $(".section1").fadeOut('fast', function () {
+        $(".section2").removeClass("none");
+        $(".section1").addClass("none");
+        $(".section2").fadeIn('slow', function () {
+          // Animation complete
+        });
       });
       $("#style").attr("href", "css/tr.css");
 
-});
+    });
 
 
-$(".home").click(function(){
-   $(".section2").fadeOut('fast', function() {
-       $(".section1").removeClass("none");
-       $(".section2").addClass("none");
-       $(".section1").fadeIn('slow', function() {
-            });
+    $(".home").click(function () {
+      $(".section2").fadeOut('fast', function () {
+        $(".section1").removeClass("none");
+        $(".section2").addClass("none");
+        $(".section1").fadeIn('slow', function () {
+        });
       });
-	  
 
-});
 
-</script>
+    });
 
-<script>
-$("a[href='#admins']").click(function(){
-   $(".main_sections").fadeOut('fast', function() {
-   $("html, body").animate({ scrollTop: $('#admins').offset().top -55}, "slow");
-       $(".admins_area").removeClass("none");
-       $(".main_sections").addClass("none");
-       $(".admins_area").fadeIn('slow', function() {
-            });
+  </script>
+
+  <script>
+    $("a[href='#admins']").click(function () {
+      $(".main_sections").fadeOut('fast', function () {
+        $("html, body").animate({ scrollTop: $('#admins').offset().top - 55 }, "slow");
+        $(".admins_area").removeClass("none");
+        $(".main_sections").addClass("none");
+        $(".admins_area").fadeIn('slow', function () {
+        });
       });
-	  
-	  
 
-});    
 
-$(".back").click(function(){
-   $(".admins_area").fadeOut('fast', function() {
-       $(".main_sections").removeClass("none");
-       $(".admins_area").addClass("none");
-       $(".main_sections").fadeIn('slow', function() {
-            });
+
+    });
+
+    $(".back").click(function () {
+      $(".admins_area").fadeOut('fast', function () {
+        $(".main_sections").removeClass("none");
+        $(".admins_area").addClass("none");
+        $(".main_sections").fadeIn('slow', function () {
+        });
       });
-	  
 
-});    
-</script>
+
+    });    
+  </script>
 
 </body>
+
 </html>
